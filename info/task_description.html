@@ -1,16 +1,15 @@
 <!-- Describe task in general -->
 
 <p>
-    Crie uma função que receba dois números inteiros como parâmetros e retorne a soma desses números.
-</p>
+Crie uma função que receba duas notas e seus respectivos pesos e retorne a média ponderada dessas notas.</p>
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> Dois números inteiros a e b.
+    <strong>Entrada: </strong> Quatro números float: a primeira nota, seu peso, a segunda nota e seu peso.
 </p>
 
 <p>
-    <strong>Saída: </strong> Um número inteiro, que é a soma de a e b. 
+    <strong>Saída: </strong> Um número float indicando a média ponderada das notas.
 </p>
 
 
@@ -25,9 +24,10 @@
 countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
-<pre class="brush: python">soma(2,3) == 5
-soma(-1,5) == 4
-soma(0,0) == 0
+<pre class="brush: python">
+media_ponderada(10, 3, 5, 2) == 8
+media_ponderada(10, 5, 6, 5) == 8.4
+media_ponderada(4.5, 2, 5, 3) == 4.583333333333333
 </pre>
 {% endif %}
 </div>
